@@ -1,0 +1,224 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding-top: 40px;
+
+
+}
+
+
+
+header {
+    background-position-y: center;
+    height: 150px;
+    padding: 150px;
+    background-image: url(imagen/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-style: groove;
+
+
+}
+
+nav {
+    background: #06060b;
+    height: 60px;
+    border-bottom: 1px solid #06060b;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+
+}
+
+.box {
+
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+input.src {
+    padding: 4px 10px 4px 30px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 25px;
+    color: black;
+    border: 1px solid white;
+    background-image: url(imagen/lupa.png);
+    background-size: contain;
+    width: 60px;
+    transition: all .5s;
+    background-repeat: no-repeat;
+
+}
+
+input.src:hover {
+    width: 180px;
+    background-color: #fff;
+    border-color: black;
+    box-shadow: 0 0 5px #6dcff680;
+    margin-right: 30px;
+}
+
+
+
+h1 {
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+}
+
+.titulonegro {
+    color: black;
+}
+
+
+
+nav ul {
+    margin: 0px;
+
+
+}
+
+nav ul li {
+    float: left;
+    text-align: justify;
+    list-style: none;
+    margin: 20px;
+    line-height: 30px;
+}
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    margin-top: 12px;
+    margin-bottom: 80px;
+}
+
+
+
+.parrafoestilo {
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contenedor {
+    padding-right: 60px;
+    padding-left: 60px;
+
+}
+
+img {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.fotos {
+
+    margin: 100px;
+    justify-content: center;
+    display: inline-block;
+
+}
+
+
+
+.fotos img {
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+
+.fotos img:hover {
+    transform: scale(1.2);
+}
+
+
+.modal {
+    width: 16px;
+    height: 15px;
+    margin: 10px;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.modal h3 {
+    color: black;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.but {
+    text-decoration: none;
+    min-width: 700px;
+    display: block;
+    justify-content: space-around;
+
+}
+
+.but a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 2px 6px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+.but a:hover {
+    transform: scale(1.2);
+
+}
+
+aside {
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    background: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+}
